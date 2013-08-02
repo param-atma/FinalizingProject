@@ -87,9 +87,9 @@ public class MainPgrm {
 	MainPgrm() {
 		   terminal = new GrittyTerminal();
 		   termPanel = terminal.getTermPanel();
-		   final JFrame frame = new JFrame("Gritty");
-                                  // final JFrame frame = new MyFrame ();
-                                  //final JFrame frame = new FrameTwo ();
+		   //final JFrame frame = new JFrame("Gritty");
+                                     final JFrame frame = new MyFrame ();
+                                  
                                   
 		frame.addWindowListener(new WindowAdapter() {
 			@Override
